@@ -2,10 +2,10 @@
     <html>
         <head>
             <meta charset="utf-8" />
-            <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-            <link rel="stylesheet" type="text/css" href="style.css" />
+            <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="../style.css" />
             <title>Hack::Ardennes - Metrology</title>
-            <meta http-equiv="refresh" content="300; URL=https://metrology.hackardennes.com/">
+            <meta http-equiv="refresh" content="300; URL=https://metrology.hackardennes.com/team01">
         </head>
         <body>
             <div id="fb-root"></div>
@@ -17,8 +17,10 @@
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
             <header>
-                <div class="gg-logo"></div>
-                <div class="gg-title"></div>
+                <a href="https://metrology.hackardennes.com/">
+                    <div class="gg-logo"></div>
+                    <div class="gg-title"></div>
+                </a>
             </header>
             <section class="gg-statistics">
             </section>
@@ -38,7 +40,7 @@
                 <div class="gg-metrologydata">
                     <?php
 
-                    $csv = array_map('str_getcsv', file("metrologie/metriques.csv"));
+                    $csv = array_map('str_getcsv', file("../metrologie/metriques.csv"));
 
                     $data = str_getcsv($csv[0][0], ";");
                     $power = str_getcsv($csv[1][0], ";");
@@ -51,28 +53,28 @@
                                 <th>
                                 </th>
                                 <th>
-                                    <a href="team01/">Team #1</a>
+                                    <a href="../team01/">Team #1</a>
                                 </th>
                                 <th>
-                                    <a href="team02/">Team #2</a>
+                                    <a href="../team02/">Team #2</a>
                                 </th>
                                 <th>
-                                    <a href="team03/">Team #3</a>
+                                    <a href="../team03/">Team #3</a>
                                 </th>
                                 <th>
-                                    <a href="team04/">Team #4</a>
+                                    <a href="../team04/">Team #4</a>
                                 </th>
                                 <th>
-                                    <a href="team05/">Team #5</a>
+                                    <a href="../team05/">Team #5</a>
                                 </th>
                                 <th>
-                                    <a href="team06/">Team #6</a>
+                                    <a href="../team06/">Team #6</a>
                                 </th>
                                 <th>
-                                    <a href="staff/">Staff</a>
+                                    <a href="../staff/">Staff</a>
                                 </th>
                                 <th>
-                                    <a href=".">Total</a>
+                                    <a href="..">Total</a>
                                 </th>
                             </tr>
                         </thead>
@@ -154,12 +156,13 @@
                     <table width="1100px">
                         <tr>
                             <td>
-                                <img src="metrologie/puissance_total-day.png" width="">
+                                <img src="../metrologie/puissance_6-day.png" width="">
                             </td>
                             <td>
-                                <img src="metrologie/trafic_total-day.png"  width="">
+                                <img src="../metrologie/trafic_6-day.png"  width="">
                             </td>
                         </tr>
+
                     </table>
 		        </div>
             </section>

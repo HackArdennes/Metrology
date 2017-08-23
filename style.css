@@ -146,3 +146,12 @@ body {
 }
 
 
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #E23EA1;
+}
+a:hover {
+    color: #E23EA1;
+}
