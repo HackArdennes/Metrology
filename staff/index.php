@@ -5,7 +5,7 @@
             <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
             <link rel="stylesheet" type="text/css" href="../style.css" />
             <title>Hack::Ardennes - Metrology</title>
-            <meta http-equiv="refresh" content="60; URL=https://metrology.hackardennes.com/team01">
+            <meta http-equiv="refresh" content="60; URL=https://metrology.hackardennes.com">
         </head>
         <body>
             <div id="fb-root"></div>
@@ -30,107 +30,9 @@
                     </p>
                 </div>
             </section>
-            <section class="gg-metrology-data">
-                <?php
-                    $csv = array_map('str_getcsv', file("../metrologie/metriques.csv"));
-                    $data = str_getcsv($csv[0][0], ";");
-                    $power = str_getcsv($csv[1][0], ";");
-                ?>
-                <table>
-                    <tr>
-                        <th>
-                        </th>
-                        <th>
-                            <a href="../team01/">Team #1</a>
-                        </th>
-                        <th>
-                            <a href="../team02/">Team #2</a>
-                        </th>
-                        <th>
-                            <a href="../team03/">Team #3</a>
-                        </th>
-                        <th>
-                            <a href="../team04/">Team #4</a>
-                        </th>
-                        <th>
-                            <a href="../team05/">Team #5</a>
-                        </th>
-                        <th>
-                            <a href="../team06/">Team #6</a>
-                        </th>
-                        <th>
-                            <a href="../staff/">Staff</a>
-                        </th>
-                        <th>
-                            <a href="..">Total</a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td class="first">
-                            Data (Kb)
-                        </td>
-                        <td>
-                            <?php echo $data[0]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[1]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[2]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[3]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[4]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[5]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[6]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[7]; ?>
-                        </td>
-                        <td>
-                            <?php $data[8]; ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="first">
-                            Power (kWh)
-                        </td>
-                        <td>
-                            <?php echo $power[0]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[1]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[2]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[3]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[4]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[5]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[6]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[7]; ?>
-                        </td>
-                        <td>
-                            <?php $power[8]; ?>
-                        </td>
-                    </tr>
-                </table>
-            </section>
+            <?php                                                                                                                                    
+                include("../resume.php");
+            ?> 
             <section>
                 <h1>Staff</h1>
             </section>
