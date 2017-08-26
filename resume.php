@@ -26,11 +26,9 @@
                         <th>
                             <a href="../staff/">Staff</a>
                         </th>
-                        <!--
                         <th>
                             <a href="..">Total</a>
                         </th>
-                        -->
                     </tr>
                     <tr>
                         <td class="first">
