@@ -41,7 +41,7 @@
                             <?php echo round(intval($data[1])/1024); ?>
                         </td>
                         <td>
-                            <?php echo round(intval($data[2])/1024); ?>
+                            <?php echo round(intval($data[3])/1024); ?>
                         </td>
                         <td>
                             <?php echo round(intval($data[4])/1024); ?>
@@ -55,9 +55,6 @@
                         <td>
                             <?php echo round(intval($data[7])/1024); ?>
                         </td>
-                        <td>
-                            <?php echo round(intval($data[8])/1024); ?>
-                        </td>
                     </tr>
                     <tr>
                         <td class="first">
@@ -70,7 +67,7 @@
                             <?php echo $power[1]; ?>
                         </td>
                         <td>
-                            <?php echo $power[2]; ?>
+                            <?php echo $power[3]; ?>
                         </td>
                         <td>
                             <?php echo $power[4]; ?>
@@ -83,9 +80,6 @@
                         </td>
                         <td>
                             <?php echo $power[7]; ?>
-                        </td>
-                        <td>
-                            <?php echo $power[8]; ?>
                         </td>
                     </tr>
                 </table>
