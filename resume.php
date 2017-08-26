@@ -26,9 +26,11 @@
                         <th>
                             <a href="../staff/">Staff</a>
                         </th>
+                        <!--
                         <th>
                             <a href="..">Total</a>
                         </th>
+                        -->
                     </tr>
                     <tr>
                         <td class="first">
@@ -52,9 +54,11 @@
                         <td>
                             <?php echo round(intval($data[6])/1024); ?>
                         </td>
+                        <!--
                         <td>
                             <?php echo round(intval($data[7])/1024); ?>
                         </td>
+                        -->
                     </tr>
                     <tr>
                         <td class="first">
