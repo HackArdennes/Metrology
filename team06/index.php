@@ -5,7 +5,7 @@
             <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
             <link rel="stylesheet" type="text/css" href="../style.css" />
             <title>Hack::Ardennes - Metrology</title>
-            <meta http-equiv="refresh" content="300; URL=https://metrology.hackardennes.com/">
+            <meta http-equiv="refresh" content="30; URL=https://metrology.hackardennes.com/">
         </head>
         <body>
             <div id="fb-root"></div>
@@ -41,22 +41,19 @@
                         <th>
                         </th>
                         <th>
-                            <a href="../team01/">Team #1</a>
+                            <a href="../team01/">Give'n Care</a>
                         </th>
                         <th>
-                            <a href="../team02/">Team #2</a>
+                            <a href="../team02/">PotoOuTay</a>
                         </th>
                         <th>
-                            <a href="../team03/">Team #3</a>
+                            <a href="../team04/">Fluid Flow</a>
                         </th>
                         <th>
-                            <a href="../team04/">Team #4</a>
+                            <a href="../team05/">Hackathor</a>
                         </th>
                         <th>
-                            <a href="../team05/">Team #5</a>
-                        </th>
-                        <th>
-                            <a href="../team06/">Team #6</a>
+                            <a href="../team06/">Les Sardines</a>
                         </th>
                         <th>
                             <a href="../staff/">Staff</a>
@@ -77,9 +74,6 @@
                         </td>
                         <td>
                             <?php echo $data[2]; ?>
-                        </td>
-                        <td>
-                            <?php echo $data[3]; ?>
                         </td>
                         <td>
                             <?php echo $data[4]; ?>
@@ -111,9 +105,6 @@
                             <?php echo $power[2]; ?>
                         </td>
                         <td>
-                            <?php echo $power[3]; ?>
-                        </td>
-                        <td>
                             <?php echo $power[4]; ?>
                         </td>
                         <td>
@@ -132,7 +123,7 @@
                 </table>
             </section>
             <section>
-                <h1>Équipe #6</h1>
+                <h1>Les Sardines</h1>
             </section>
             <section class="gg-metrology">
                 <img src="../metrologie/puissance_6-day.png" width="">
