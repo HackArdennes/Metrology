@@ -5,7 +5,7 @@
             <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
             <link rel="stylesheet" type="text/css" href="../style.css" />
             <title>Hack::Ardennes - Metrology</title>
-            <meta http-equiv="refresh" content="300; URL=https://metrology.hackardennes.com/team02">
+            <meta http-equiv="refresh" content="300; URL=https://metrology.hackardennes.com/team03">
         </head>
         <body>
             <div id="fb-root"></div>
